@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "League17 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "League17 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

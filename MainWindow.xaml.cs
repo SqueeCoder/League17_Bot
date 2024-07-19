@@ -45,7 +45,7 @@ namespace WinUI_3
                Options = JsonSerializer.Deserialize<Dictionary<string, string>>(serializedOptions);
             }
             //remove on production
-           // Options = OptionsInitializer.Initialize();
+             Options = OptionsInitializer.Initialize();
         }
 
         private async void LoginButton_Click(object sender, RoutedEventArgs e)
